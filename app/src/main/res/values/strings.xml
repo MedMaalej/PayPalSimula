@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Mobile banking</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_app_menu">AppMenu</string>
+    <string name="title_activity_transactions_list">TransactionsList</string>
+    <string name="title_activity_payments_by_date">PaymentsByDate</string>
+</resources>

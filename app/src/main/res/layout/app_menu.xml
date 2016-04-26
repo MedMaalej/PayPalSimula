@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:id="@+id/textView4"
+        android:layout_marginTop="44dp"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ff000000" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Perform payment"
+        android:id="@+id/pay"
+        android:layout_marginTop="44dp"
+        android:width="280dp"
+        android:height="150dp"
+        android:layout_below="@+id/textView4"
+        android:layout_toStartOf="@+id/textView4"
+        android:layout_marginLeft="40dp"
+        android:background="#ff731bff"
+        android:textColor="#fffffef6" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recent transactions"
+        android:id="@+id/showTransactions"
+        android:width="280dp"
+        android:height="150dp"
+        android:layout_alignTop="@+id/pay"
+        android:layout_toEndOf="@+id/textView4"
+        android:layout_marginRight="40dp"
+        />
+
+</RelativeLayout>
